@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sueno"
+    android:orientation="vertical"
+    tools:context=".Splash_sueno">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="201dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/cabin"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:shadowColor="#A6A5A5"
+        android:shadowDx="2"
+        android:shadowRadius="3"
+        android:text='"¿Tienes problemas para conciliar el sueño por la noche? Te invitamos a que te relajes y disfrutes de esta sesión de sonidos diseñada específicamente para ayudarte a conciliar el sueño. Cierra los ojos y permite que los sonidos te envuelvan y te lleven a un estado de calma y serenidad. '
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#B4EDEDED"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="118dp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/cabin"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:shadowColor="#A6A5A5"
+        android:shadowDx="2"
+        android:shadowRadius="3"
+        android:text='Deja que los sonidos te transporten a un lugar tranquilo y acogedor donde puedas descansar y recargar energías para un nuevo día. ¡Disfruta de una noche de sueño reparador con nuestra sesión de sonidos para conciliar el sueño!" '
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#B4EDEDED"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnOmitir"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#5B4C4B"
+        android:gravity="center"
+        android:onClick="btnOmitir"
+        android:text="Omitir"
+        android:textColor="#FEFEFE"
+        tools:ignore="TouchTargetSizeCheck"
+        android:visibility="gone"/>
+</LinearLayout>

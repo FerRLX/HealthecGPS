@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6E8"
+    android:orientation="vertical"
+    tools:context=".RecetasActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Que puedes cocinar?"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <SearchView
+        android:id="@+id/srcvRecetas"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="#CCC3C3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recvRecetas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp" />
+</LinearLayout>

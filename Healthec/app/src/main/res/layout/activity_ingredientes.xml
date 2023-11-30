@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6E8"
+    android:backgroundTint="#FFF6E8"
+    android:orientation="vertical"
+    tools:context=".IngredientesActivity">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="¿Qué hay en tu nevera?"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <SearchView
+        android:id="@+id/srcvIngredientes"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="#CCC3C3"
+        android:foregroundTint="#000000"
+        android:paddingEnd="10dp"
+        android:queryBackground="?attr/editTextBackground"
+        android:queryHint="Escribe algun ingrediente" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recvIngredientes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp" />
+
+
+</LinearLayout>

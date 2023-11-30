@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6E8"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SleepActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|center_vertical"
+        android:padding="5dp"
+        android:text="Información de tu sueño"
+        android:textColor="#7A6969"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Meta de sueño actual:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <TextView
+        android:id="@+id/txvMetaSueno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <ToggleButton
+        android:id="@+id/tgbtnSleep"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#F6DDB9"
+        android:text="ToggleButton"
+        android:textColor="#7A6969"
+        android:textOff="Apagado"
+        android:textOn="Encendido" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnSleepHorario"
+            android:layout_width="140dp"
+            android:layout_height="134dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:onClick="popTimePicker"
+            android:scaleType="fitXY"
+            android:src="@drawable/horario_sleep" />
+
+        <TextView
+            android:id="@+id/txvGrafica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Sueño real:"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="225dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F6DDB9"
+        android:onClick="startService"
+        android:text="Comenzar a dormir" />
+
+</LinearLayout>

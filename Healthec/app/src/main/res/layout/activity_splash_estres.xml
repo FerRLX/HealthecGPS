@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fonderespiracion"
+    android:orientation="vertical"
+    tools:context=".Splash_estres">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="401dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/cabin"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:shadowColor="#A6A5A5"
+        android:shadowDx="2"
+        android:shadowRadius="3"
+        android:text="¡Bienvenido! Este audio te guiará a través de una serie de técnicas para aliviar el estrés. Si estás sintiendo ansiedad, tensión o simplemente necesitas un momento de relajación, este audio es perfecto para ti."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#00444F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/cabin"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:shadowColor="#A6A5A5"
+        android:shadowDx="2"
+        android:shadowRadius="3"
+        android:text="En este audio, encontrarás instrucciones detalladas para seguir mientras escuchas la musica de fondo. Te guiaremos a través de ejercicios de respiración para ayudarte a relajar tu mente y cuerpo."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#00444F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnOmitir"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#024952"
+        android:gravity="center"
+        android:onClick="btnOmitir"
+        android:text="Omitir"
+        android:textColor="#C9CDDD"
+        tools:ignore="TouchTargetSizeCheck"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1031199883140",
+    "firebase_url": "https://healthec-adfff-default-rtdb.firebaseio.com",
+    "project_id": "healthec-adfff",
+    "storage_bucket": "healthec-adfff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031199883140:android:c3ff1111abd943666ee7d1",
+        "android_client_info": {
+          "package_name": "mx.GPS.healthec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031199883140-qtqpg346es5cn9e0ld2lgh7i1iqnsj0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.GPS.healthec",
+            "certificate_hash": "c66c827d5a0475d9bcf0ed0a3bd163107d56858b"
+          }
+        },
+        {
+          "client_id": "1031199883140-49r94b2vkjqjjr581o06145avs2n1i50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3o3iBUaxyouun2RWw6HxN-bWBW4j2OSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031199883140-49r94b2vkjqjjr581o06145avs2n1i50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

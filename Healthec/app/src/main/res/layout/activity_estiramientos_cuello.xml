@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/relajacion"
+    android:foregroundTintMode="multiply"
+    android:orientation="vertical"
+    tools:context=".EstiramientosCuello">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="147dp" />
+
+    <TextView
+        android:id="@+id/txtDescrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:shadowColor="#2A7C94"
+        android:text="C O N T A D O R"
+        android:textColor="#9A020303"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtContador1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:text="Descripcion"
+        android:textColor="#BE091114"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
+    <ImageView
+        android:id="@+id/imgGif"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:foregroundTint="#80C5B3B3"
+        android:foregroundTintMode="multiply"
+        android:tintMode="multiply"
+        tools:ignore="UseAppTint" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="51dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="67dp">
+
+        <Button
+            android:id="@+id/btnSiguente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#317F99"
+            android:text="Siguiente "
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Healthec</string>
+    <string name="UsuarioCorreo">Correo</string>
+    <string name="UsuarioContraseña">Contraseña</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Aceptar">Aceptar</string>
+    <string name="sleep">sleep</string>
+    <string name="recordatorios">recordatorios</string>
+    <string name="recetas">recetas</string>
+    <string name="ejercicios">ejercicios</string>
+    <string name="mi_informacion">MI INFORMACION</string>
+    <string name="recordatorio_medico">RECORDATORIO MEDICO</string>
+    <string name="back">TODO</string>
+    <string name="medicamentos">MEDICAMENTOS</string>
+    <string name="citas">CITAS</string>
+    <string name="recordatorios2">RECORDATORIOS</string>
+    <string name="nuevo_recordatorio">Nuevo Recordatorio</string>
+    <string name="mas">+</string>
+    <string name="textview">TextView</string>
+    <string name="prioridadActividad">prioridadActividad</string>
+    <string name="nombreactividad">nombreactividad</string>
+    <string name="prioridadactividad">prioridadactividad</string>
+    <string name="alarma_actividad">Alarma Actividad</string>
+    <string name="fecha_seleccionada">Fecha Seleccionada..</string>
+    <string name="seleccionar_fecha">SELECCIONAR FECHA</string>
+    <string name="hora_seleccionada">Hora Seleccionada...</string>
+    <string name="seleccionar_hora">SELECCIONAR HORA</string>
+    <string name="eliminar_alarma">eliminar alarma</string>
+    <string name="guardar_alarma">guardar alarma</string>
+    <string name="recordatorio">RECORDATORIO</string>
+    <string name="todo">TODO</string>
+</resources>

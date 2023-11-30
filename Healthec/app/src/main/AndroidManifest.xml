@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!--android:name=".item_row"-->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo_healthec"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Healthec"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashRecuerda"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SleepActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SegundaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConsejosSaludables"
+            android:exported="false" />
+            <activity
+            android:name=".SplashRelajacion"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".EstiramientoPiernas"
+            android:exported="false" />
+        <activity
+            android:name=".EstiramientoEspalda"
+            android:exported="false" />
+        <activity
+            android:name=".EstiramientoHombros"
+            android:exported="false" />
+        <activity
+            android:name=".EstiramientosCuello"
+            android:exported="true" />
+        <activity
+            android:name=".RelajacionVespertina"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".Splash_estres"
+            android:noHistory="true"
+            />
+        <activity
+            android:name=".Splash_sueno"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".AlivioEstres"
+            android:exported="true"
+            android:noHistory="true"/>
+        <activity
+            android:name=".ConciliacionSueno"
+            android:exported="true"
+            android:noHistory="true"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeditacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashRecordatorios"
+            android:exported="true"
+            android:noHistory="true"/>
+        <activity
+            android:name=".RecetasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IngredientesActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".RecordatoriosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".AcelerometerService"/>
+        
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

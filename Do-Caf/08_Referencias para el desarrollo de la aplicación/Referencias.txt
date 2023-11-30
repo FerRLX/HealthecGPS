@@ -1,0 +1,10 @@
+El contenido de esta carpeta son las referencias que fueron utilizadas para el desarrollo de la aplicación:
+Libros
+Páginas web
+Plantillas
+Guías
+Software
+
+Documentación de android
+Guías online
+Practicas de Gilipollas

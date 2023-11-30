@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomed"
+    android:backgroundTint="#000000"
+    android:orientation="vertical"
+    tools:context=".MeditacionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondomed"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="309dp" />
+
+        <Button
+            android:id="@+id/btnSueno"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#F7E8D5"
+            android:backgroundTintMode="add"
+            android:fontFamily="sans-serif-black"
+            android:foregroundTint="#FFF7F7"
+            android:gravity="center"
+            android:onClick="btnSueño"
+            android:text="Conciliacion del sueño"
+            android:textColor="#908883"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:rippleColor="#FEF5E7"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#F7E8D5"
+            android:backgroundTintMode="add"
+            android:foregroundTint="#FFF7F7"
+            android:onClick="btnAnsiedad"
+            android:text="ALIVIO DE ANSIEDAD"
+            android:textColor="#908883"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:rippleColor="#FEF5E7"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/btnRelajacion"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#F7E8D5"
+            android:backgroundTintMode="add"
+            android:onClick="btnRelajacion"
+            android:text="RELAJACION VESPERTINA"
+            android:textColor="#908883"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:rippleColor="#FEF5E7"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

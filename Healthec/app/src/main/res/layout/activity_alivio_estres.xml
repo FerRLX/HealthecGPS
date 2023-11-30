@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fonderespiracion"
+    android:orientation="vertical"
+    tools:context=".AlivioEstres">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="215dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:elegantTextHeight="true"
+        android:freezesText="false"
+        android:gravity="center"
+        android:text="C O N T A D O R"
+        android:textColor="#ABA3AF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtContador1"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:elegantTextHeight="true"
+        android:gravity="center"
+        android:text="05:00"
+        android:textColor="#C8FEFEFE"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtInstrucciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elegantTextHeight="true"
+        android:gravity="center"
+        android:text="L I S T O ?"
+        android:textColor="#11585F"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="127dp" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#024952"
+        android:gravity="center"
+        android:text="INICIAR EJERCICIO"
+        android:textColor="#C9CDDD"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="196dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#024952"
+            android:gravity="center"
+            android:text="REINICIAR EJERCICIO"
+            android:textColor="#C9CDDD"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="31dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnPausar"
+            android:layout_width="191dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#024952"
+            android:gravity="center"
+            android:text="PAUSAR EJERCICIO"
+            android:textColor="#C9CDDD"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+</LinearLayout>
